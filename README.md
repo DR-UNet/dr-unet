@@ -18,7 +18,7 @@
       tf_record_path, tf_record_name, data_shape, batch_size=32, repeat=1, shuffle=True)
   ```
 
-- [loss.py](drunet/loss.py)  According to the characteristics of the cerebral hematoma dataset, in order to obtain higher segmentation accuracy. We use binary cross entropy with dice as the loss function of DR-Unet.
+- [loss.py](drunet/loss.py)  According to the characteristics of the cerebral hematoma dataset, in order to obtain higher segmentation accuracy. We use binary cross entropy with dice as the loss function of DR-UNet.
 
 - [module.py](drunet/module.py) This file contains several auxiliary functions for image processing.
 

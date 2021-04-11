@@ -35,7 +35,7 @@
   model.summary()
   ```
 
-- [segment.py](drunet/segment.py) This file shows how to train, test and verification DR-UNet on your own dataset. Including hematoma segmentation and hematoma volume estimation.
+- [segment.py](drunet/segment.py) This code is for training, validating and testing DR-UNet on your own dataset, which includes hematoma segmentation and hematoma volume estimation.
 
   ```python
   import pathlib

@@ -20,9 +20,9 @@
 
 - [loss.py](drunet/loss.py)  According to the characteristics of the cerebral hematoma dataset, we use binary cross entropy with dice as the loss function of DR-UNet in order to improve the segmentation accuracy. 
 
-- [module.py](drunet/module.py) This file contains several auxiliary functions for image processing.
+- [module.py](drunet/module.py) This code is for image processing.
 
-- [utils.py](drunet/utils.py) This python file contains several auxiliary functions for file operations.
+- [utils.py](drunet/utils.py) This code contains several auxiliary functions for file operations.
 
 - [performance.py](drunet/performance.py) In order to evaluate the segmentation performance of the model, this file contains auxiliary functions for the calculation of several common segmentation indicators.
 

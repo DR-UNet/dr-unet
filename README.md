@@ -103,7 +103,7 @@
   
   ```
   
-  [predict_volume.py](drunet/predict_volume.py) If you want to predict the complete hematoma volume of a patient, after filling in the path, then you can run this file,
+  [predict_volume.py](drunet/predict_volume.py) By predict_volume.py, you can obtain the result of hematoma volume for each patient. You should only fill the complete data or images path.
   
   ```python
   import segment

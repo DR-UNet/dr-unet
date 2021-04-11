@@ -26,7 +26,7 @@
 
 - [performance.py](drunet/performance.py) By performance.py, we can calculate several common segmentation indicators to evaluate the segmentation performance of the model.
 
-- [drunet.py](drunet/model/dr_unet.py) This file contains the specific implementation of DR-UNet and three reduced dimensional residual convolution units (RDRCUs).
+- [drunet.py](drunet/model/dr_unet.py) This code is for the specific implementation of DR-UNet and three reduced dimensional residual convolution units.
 
   ```python
   from model import dr_unet

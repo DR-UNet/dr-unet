@@ -89,7 +89,7 @@
       Seg.train()
   ```
   
-  [predict_segment.py](drunet/predict_segment.py) If you want to predict the segmentation result, you can run this file directly after filling in the ct images path.
+  [predict_segment.py](drunet/predict_segment.py) By predict_segment.py, you can obtain the segmentation prediction. You should only fill the complete data or images path.
   
   ```python
   import segment

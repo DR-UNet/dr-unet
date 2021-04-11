@@ -78,7 +78,7 @@
   segment.predict_blood_volume(input_dir, save_dir, calc_nums=-1, dpi=96, thickness=0.45)
   ```
 
-  [train_segment.py](drunet/train_segment.py) If you want to train the segmentation model, you can run this file directly after filling in the data path.
+  [train_segment.py](drunet/train_segment.py) By train_segment.py, you can train the segmentation model with a complete data path.
   
   ```python
   import segment

@@ -24,7 +24,7 @@
 
 - [utils.py](drunet/utils.py) This code contains several auxiliary functions for file operations.
 
-- [performance.py](drunet/performance.py) In order to evaluate the segmentation performance of the model, this file contains auxiliary functions for the calculation of several common segmentation indicators.
+- [performance.py](drunet/performance.py) By performance.py, we can calculate several common segmentation indicators to evaluate the segmentation performance of the model.
 
 - [drunet.py](drunet/model/dr_unet.py) This file contains the specific implementation of DR-UNet and three reduced dimensional residual convolution units (RDRCUs).
 

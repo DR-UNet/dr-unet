@@ -5,7 +5,7 @@
 
 ## Getting Started
 
-- [data.py](drunet/data.py)  Used to make your own dataset. Making your own dataset needs to satisfy having original images and the ground truth images. The completed dataset is a unique data format of tensorflow. 
+- [data.py](drunet/data.py)  You can make your own dataset by data.py. Both original images and the ground truth images are necessary to make a complete dataset, which is a unique data format of deep learning.
 
   ```python
   from data import make_data

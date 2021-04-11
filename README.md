@@ -5,7 +5,7 @@
 
 ## Getting Started
 
-- [data.py](drunet/data.py)  You can make your own dataset by data.py. Both original images and the ground truth images are necessary to make a complete dataset, which is a unique data format of deep learning.
+- [data.py](drunet/data.py)  You can make your own dataset by data.py. Both original images and the ground truth images are necessary to make a complete dataset, which is a unique data format of tensorflow.
 
   ```python
   from data import make_data
@@ -116,7 +116,7 @@
       Seg.predict_blood_volume(input_dir, save_dir, thickness=0.45)
   ```
   
-  [test_performance.py](drunet/test_performance.py) If you want to understand the segmentation performance of the model, you need to fill in the relevant path first, and then run this file.
+  [test_performance.py](drunet/test_performance.py) Run this code and obtain the segmentation performance of the model by testing dataset.
   
   ```python
   import performance
